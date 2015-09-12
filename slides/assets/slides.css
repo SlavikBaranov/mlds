@@ -1,0 +1,72 @@
+/* Custom styles for ioslides presentation */
+
+.title-slide {
+    background-image: url("data_fest.png");
+    background-repeat: no-repeat;
+    background-position-y: 21%;
+    background-position-x: 90%;
+}
+
+.segue hgroup {
+    position: absolute;
+    max-width: 840px;
+}
+
+slides > slide > hgroup + article {
+    margin-top: 25px;
+}
+
+pre.prettyprint {
+    left: -20px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.col-3 {
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.col-4 {
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.col-5 {
+    display: inline-block;
+    width: 41%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.col-6 {
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.col-7 {
+    display: inline-block;
+    width: 58%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.col-8 {
+    display: inline-block;
+    width: 66%;
+    height: 100%;
+    vertical-align: top;
+}
+.col-9 {
+    display: inline-block;
+    width: 75%;
+    height: 100%;
+    vertical-align: top;
+}
+
